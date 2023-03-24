@@ -1,0 +1,68 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+
+
+// Utilities
+.fs-11 { font-size: 0.688rem; }
+.fs-12 { font-size: 0.75rem; }
+.fs-13 { font-size: 0.813rem; }
+.fs-14 { font-size: 0.875rem; }
+.fs-15 { font-size: 0.938rem; }
+.fs-16 { font-size: 1rem; }
+.fs-18 { font-size: 1.125rem; }
+.fs-21 { font-size: 1.313rem; }
+.fs-22 { font-size: 1.375rem; }
+.fs-25 { font-size: 1.563rem; }
+.fs-28 { font-size: 1.75rem; }
+.fs-30 { font-size: 1.875rem; }
+.fs-38 { font-size: 2.375rem; }
+.fs-45 { font-size: 2.8rem; }
+
+.fw-thin { font-weight: 100 !important; }
+.fw-extra-light { font-weight: 200 !important; }
+.fw-light { font-weight: 300 !important; }
+.fw-normal { font-weight: 400 !important; }
+.fw-medium { font-weight: 500 !important; }
+.fw-semi-bold { font-weight: 600 !important; }
+.fw-bold { font-weight: 700 !important; }
+.fw-extra-bold { font-weight: 800 !important; }
+.fw-ultra-bold { font-weight: 900 !important; }
+
+.rounded-4 { border-radius: 0.5rem !important; }
+.rounded-5 { border-radius: 0.75rem !important; }
+
+.lh-16 { line-height: 1rem !important; }
+.lh-29 { line-height: 1.813rem !important; }
+.lh-22 { line-height: 1.375rem !important; }
+.lh-30 { line-height: 1.875rem !important; }
+.lh-50 { line-height: 3.125rem !important; }
+
+body { color: var(--bs-dark); overflow-x: hidden !important; line-height: 1.563rem; }
+h1 { font-size: 1.563rem; }
+h2 { font-size: 1.313rem; }
+section { margin: 0 !important; }
+.btn-primary { color: #fff; }
+
+
+body.swal2-toast-shown .swal2-container.swal2-bottom {
+    width: fit-content;
+}
+
+.swal2-popup.swal2-toast .swal2-title {
+    font-size: 0.9em !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+}
